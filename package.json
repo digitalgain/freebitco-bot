@@ -1,1 +1,10 @@
-{"name":"freebitco-bot","author":"DigitalGain","dependencies":{"minimist":"^1.2.5","moment":"^2.24.0","puppeteer":"^2.1.1"},"version":"0.1.0"}
+{
+  "name": "freebitco-bot",
+  "author": "DigitalGain",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "moment": "^2.24.0",
+    "puppeteer": "^2.1.1"
+  },
+  "version": "0.1.0"
+}
