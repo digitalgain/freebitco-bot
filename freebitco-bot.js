@@ -22,6 +22,7 @@ const logInfo = (message) => {
 const launch = (auth) => __awaiter(void 0, void 0, void 0, function* () {
     const browser = yield puppeteer.launch({
         headless: auth.headless,
+		args: ['--no-sandbox'],
         defaultViewport: null,
         devtools: false
     });
